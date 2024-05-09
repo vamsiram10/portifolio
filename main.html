@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="/Users/rongalivamsi/Desktop/portfolio/style.css">
+    <link rel="stylesheet" href="/Users/rongalivamsi/Desktop/portfolio/color.css">
+
+</head>
+<body>
+    <nav id="desktop">
+        <div class="logo">Rongali Venkata Rama Vamsi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="burger-nav">
+        <div class="logo">Vamsi</div>
+        <div class="burger-menu"><!--all the burger-nav is used to  show and hide the menu on smaller screens of max width-1200px , for example desktop view is more different from mobile nrml view so we add extra nav called burger-nav (understand the js properly)-->
+            <div class="burger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()" >About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic">
+            <img src="/Users/rongalivamsi/Desktop/fotor-20240413155624.png" alt="vamsi rama">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello I'm</p>
+            <h1 class="title">Vamsi Ram</h1>
+            <P class="section_text_p2"><b>FRONT END DEVELOPER</b></P>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('/Users/rongalivamsi/Desktop/portfolio/rongali venkata rama vamsi_ A20405222063.pdf')">Download Cv
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='.#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="/Users/rongalivamsi/Desktop/portfolio/PHOTO-2024-04-13-15-01-33.jpg" alt="My linkedin profile" class="icon" onclick="location.href='https:/linkedin.com/in/rongali-venkata-rama-vamsi-2543a6254'"/ >
+                <img  src="/Users/rongalivamsi/Desktop/portfolio/733609.png" alt="My linkedin profile" class="icon"  onclick="location.href='https:/github.com/vamsiram10'"/ >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmZQs_nF3JRkLgbCQKW8FtYGAp1hprnyvUs43nPIz4w&s" alt="instagram icon" class="icon contact-icon" onclick="location.href='https:/www.instagram.com/vamsi._.ram/'"/>
+            </div>
+        </div>
+    </section>
+    <section></section>
+    <section id="about">
+        <p class="section_text_p1"><i>GET TO KNOW MORE ABOUT ME</i></p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic">
+                <img src="/Users/rongalivamsi/Desktop/IMG_2118.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-detail-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="https://cdn.vectorstock.com/i/preview-1x/78/79/verified-icon-for-twitter-verification-batch-jn-vector-40887879.jpg" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>1+ Month<br>Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="https://cdn.vectorstock.com/i/1000v/29/43/education-icon-vector-20742943.jpg" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Intermediate :- 8.08% <br>B.tech (CSE):- persuing</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <br>
+                    <P>Hello! I'm <b><U><i>RONGALI VENKATA RAMA VAMSI</i></U></b>, a dedicated student with a passion for frontend development. Currently pursuing my studies in [Your Degree/Major], I'm deeply immersed in the world of web development and eager to make my mark in the industry. My journey began with a fascination for creating visually captivating and user-friendly websites, which led me to delve into the intricacies of HTML5, CSS3, and JavaScript.
+
+                        As a student, I've embarked on various projects, both within my coursework and independently, to sharpen my skills and expand my knowledge. Through these experiences, I've gained a solid foundation in frontend technologies and a keen understanding of design principles. I take pride in my ability to transform static designs into dynamic and responsive interfaces that engage users and enhance their browsing experience.
+                        
+                        As a student, I've honed my frontend skills through coursework and independent projects,frontend technologies. . With a growth mindset, I embrace challenges and actively seek learning opportunities to stay updated on industry trends. Transitioning to a professional role excites me, as I aspire to contribute meaningfully to impactful projects and collaborate with seasoned professionals. If you seek a motivated frontend developer-in-training ready to learn and bring fresh perspectives to your team, let's connect and discuss how I can support your success.
+                        
+                        
+                    </P>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <img src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png" alt="arrow icon" class="icon arrow"/>
+    </section>
+    <br> 
+    <br>
+    <br>
+
+    <section id="experience">
+        <p class="section_text_p1"><i>Explore My</i></p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Mango DB</h3>
+                                <p>Learner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzC8lRjcnxcBuo9NUxX5ZaRMe40KDsYS6b4rihZEibSg&s" alt="experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>learning</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png" alt="arrow icon" class="icon arrow"/>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/Users/rongalivamsi/Desktop/stock-vector-editable-text-effect-quiz-time-d-cartoon-template-style-premium-vector-2269723283.jpg" alt="Project-1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location:href=''">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location:href=''">Live Demo</button> <!---- (for to keep another option live demo)-->
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/Users/rongalivamsi/Desktop/weatherapp-02-1024x598.png" alt="Project-1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two </h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location:href=''">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location:href=''">Live Demo</button> <!--(for to keep another option live demo)--> 
+                </div>
+            </div>
+            </div>
+        </div>
+        <img src="https://w7.pngwing.com/pngs/323/873/png-transparent-arrow-computer-icons-down-arrow-angle-hand-logo-thumbnail.png" alt="arrow icon" class="icon arrow"/>
+    </section>
+    <section></section>
+    
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq64J1EyFLGVr66hnEl1JGhj2RgKyJI04Qxw&s" alt="Email icon" class="icon contact-icon email-icon" onclick="location.href='mailto:vamsirama1622@gmail.com'"/>
+                <p>vamsirama1622@gmail.com </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="Linkedin icon" class="icon contact-icon" onclick="location.href='https:/linkedin.com/in/rongali-venkata-rama-vamsi-2543a6254'"/>
+                <p>RONGALI VENKATA RAMA VAMSI</p>
+            <div class="contact-info-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmZQs_nF3JRkLgbCQKW8FtYGAp1hprnyvUs43nPIz4w&s" alt="instagram icon" class="icon contact-icon" onclick="location.href='https:/www.instagram.com/vamsi._.ram/'"/>
+                <p>vamsi._.ram</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Vamsi Ram. All Rights Reserved</p><br><br>
+        
+    </footer>
+    <script src="/Users/rongalivamsi/Desktop/portfolio/script.js"></script>
+</body>
+</html>
